@@ -1,0 +1,93 @@
+#kick
+{
+	height:100px;
+    width:100%;
+	border-top:10px solid rgb(130, 206, 243);
+	background-color:black;
+	border-bottom:10px solid rgb(130, 206, 243);
+	
+}
+body{
+	margin:0;
+	padding: 0;
+}
+#last
+{
+	bottom: 0px;
+	width:100%;
+	height:40px;
+	border-top:10px solid black;
+	background-color:rgb(130, 206, 243);
+	
+}
+#end
+{
+	padding-top: 5px;
+	padding-left: 10%;
+}
+#a1
+{
+	padding-left: 10%;
+}
+#copy
+{
+	display:inline-block;
+	padding-left: 10%;
+}
+#wrapper
+{
+    width:100%;
+    height:800px;
+    background-color: lightslategray;
+}
+#navin
+{
+    position: relative;
+    width:fit-content;
+    height:50%;
+    display: inline-block;
+
+}
+#navin button{
+    margin-left: 10px;
+    display:inline-block;
+    position: relative;
+    height: 100%;
+    width: fit-content;
+}
+#navin form
+{
+    margin-left: 10px;
+    position: relative;
+    display:inline-block;
+    height: 100%;
+    width: fit-content;
+}
+@media only screen and (max-width:750px)
+{
+#kick
+	{
+		height:100px;
+		width:100%;	
+		border-top:10px solid rgb(130, 206, 243);
+		background-color:black;
+		border-bottom:10px solid rgb(130, 206, 243);
+		
+    }
+    #logo
+    {
+        padding-left: 50px;
+        height: 90%;
+    }
+    #end
+{
+	padding-top: 0px;
+	padding-left: 0%;
+	text-align: center;
+}
+#copy
+{
+	text-align: center;
+	padding-left: 0%;
+}
+}
